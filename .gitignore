@@ -13,10 +13,11 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-.ssh
+.ssh/
 .bash_history
 .screenrc
 .viminfo
+.gem/
 downloads/
 scripts/
 www
