@@ -20,3 +20,17 @@ Thumbs.db
 downloads/
 scripts/
 www
+.Xauthority
+.config/
+.dbus/
+.esd_auth
+.gnupg/
+.gstreamer-0.10/
+.kde/
+.local/
+.mysql_history
+.xinitrc
+.xsession
+.z
+code/
+dotfiles/
