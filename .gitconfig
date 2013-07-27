@@ -38,3 +38,6 @@
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
 
+[user]
+	email = zareba.pawel@gmail.com
+	name = Pawel
