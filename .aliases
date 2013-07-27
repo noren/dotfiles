@@ -58,5 +58,5 @@ alias ips="/sbin/ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[
 alias whois="whois -h whois-servers.net"
 
 # View HTTP traffic @todo
-alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
-alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+alias sniff="sudo ngrep -d 'eth0' -t '^(GET|POST) ' 'tcp and port 80'"
+alias httpdump='sudo tcpdump -i eth0 -n -s 0 -w - | grep -a -o -E \"Host\: \/.*|GET \/.*\"'
