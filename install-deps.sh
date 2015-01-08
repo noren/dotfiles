@@ -29,15 +29,6 @@ chmod +x ~/code/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 
-# add this to the bash_profile file if it aint there.
-#   . ~/code/z/z.sh
-
-
-cd ~/code
-git clone git://github.com/dronir/SpotifyControl.git
-
-
-
 # my magic photobooth symlink -> dropbox. I love it.
 # first move Photo Booth folder out of Pictures
 # then start Photo Booth. It'll ask where to put the library.
