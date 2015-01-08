@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"country"
+			],
+			[
+				"s",
+				"subpages"
+			],
+			[
+				"a",
+				"array	$… = array (…)"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/assets/scripts/main.js",
+		"/home/pawel/Projects/vagrant-wordpress/README.md",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/number.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/single-local_number.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/country-search-include.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/single-toll_free.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/single-cheap_phonecard.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/cheap-phone-cards.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/footer.php",
+		"/home/pawel/Projects/vagrant-wordpress/@todo",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki/business-solutions.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk.old/wp-content/themes/okidoki/business-solutions.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk.old/wp-content/themes/okidoki/country-search-include.php",
+		"/home/pawel/Projects/vagrant-wordpress/Vagrantfile",
+		"/home/pawel/Projects/vagrant-wordpress/puppet/manifests/default.pp",
+		"/home/pawel/Projects/vagrant-wordpress/puppet/modules/wordpress/manifests/init.pp",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/country-json.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/assets/scripts/main.js",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/PlanetNumbersApi.php",
+		"/home/pawel/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/index.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/planet-numbers-api.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/uninstall.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/js/index.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/country-search-include.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/views/admin.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/views/index.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/plugins/planet-numbers-api/views/public.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/business-solutions.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/cheap-phone-cards.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/single-local_number.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/number.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/single-cheap_phonecard.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/single-toll_free.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/countries-search.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/footer.php",
+		"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki/functions.php",
+		"/home/pawel/projects/vagrant-wordpress/puppet/manifests/default.pp",
+		"/home/pawel/projects/vagrant-wordpress/puppet/modules/wordpress/manifests/init.pp",
+		"/home/pawel/projects/vagrant-wordpress/puppet/modules/wordpress/manifests/config.pp",
+		"/home/pawel/projects/vagrant-wordpress/README.md",
+		"/home/pawel/projects/vagrant-wordpress/Vagrantfile",
+		"/home/pawel/projects/vagrant-wordpress/@todo",
+		"/home/pawel/projects/vagrant-wordpress/Gruntfile.js",
+		"/home/pawel/projects/vagrant-wordpress/.gitignore",
+		"/home/pawel/projects/vagrant-wordpress/build.xml",
+		"/home/pawel/projects/vagrant-wordpress/deploy.sh",
+		"/home/pawel/projects/vagrant-wordpress/package.json",
+		"/home/pawel/Desktop/ansible/vagrant/project/db/CREATEUSER.sql",
+		"/home/pawel/Desktop/comands",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/php-fpm-55/tasks/main.yml",
+		"/home/pawel/Desktop/ansible/vagrant/project/pnmc/code/pn/pn_db.php",
+		"/home/pawel/Desktop/ansible/vagrant/project/db/mobis_planetnumbers-191114_2014-11-19.sql",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/custom/tasks/main.yml",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/install.yml",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/custom/vars/main.yml",
+		"/home/pawel/Desktop/ansible/vagrant/project/code/pn/pn_tbl_users.php",
+		"/home/pawel/Desktop/ansible/vagrant/project/code/pn/pn_db.php",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/custom/handlers/mail.yml",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/files/etc/pam.d/password-auth",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/files/etc/pam.d/su",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/files/etc/pam.d/system-auth",
+		"/home/pawel/Downloads/mobis_planetnumbers_2014-11-29.sql",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/mysql/templates/my.cnf.j2",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/mysql/templates/my-root.cnf.j2",
+		"/home/pawel/Desktop/ansible/vagrant/Vagrantfile",
+		"/home/pawel/Desktop/ansible/vagrant/project/index.php",
+		"/home/pawel/Desktop/ansible/vagrant/project/login.php",
+		"/home/pawel/Desktop/ansible/vagrant/project/code/classloader.php",
+		"/home/pawel/Desktop/ansible/vagrant/vagrant_ansible_inventory_default",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/vars/main.yml",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/tasks/section_06.yml",
+		"/home/pawel/Desktop/ansible/vagrant/ansible/roles/cis/tasks/section_06_level1.yml",
+		"/home/pawel/.conky/.conkyrc2",
+		"/home/pawel/.conky/.conkyrc1",
+		"/home/pawel/.conky/startup.sh",
+		"/home/pawel/Desktop/portfolio.nemezisproject.co.uk/live/index.php",
+		"/home/pawel/Desktop/portfolio.nemezisproject.co.uk/live/todo.md",
+		"/home/pawel/Desktop/portfolio.nemezisproject.co.uk/live/index_v1.php",
+		"/home/pawel/.conky/conkyrc",
+		"/home/pawel/.conkyrc",
+		"/home/pawel/.conky/clock_rings.lua"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers/wp-content/themes/okidoki",
+			"/home/pawel/Projects/vagrant-wordpress/wordpress/planet-numbers",
+			"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes/okidoki",
+			"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk",
+			"/home/pawel/Projects/vagrant-wordpress/wordpress/trunk/wp-content/themes",
+			"/home/pawel/Desktop/ansible/vagrant"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main.js",
+			"selectme",
+			"\"selectme",
+			"select me",
+			"selectme",
+			"main.min",
+			"countries",
+			"load_plugin_textdomain",
+			"'countries', 'search-include'",
+			"selectme",
+			"main.min.js",
+			"selectme",
+			"main.min.js",
+			".select2",
+			"select2",
+			"mysql_root_db_pass",
+			"centOS",
+			"data",
+			"2048",
+			"draw_ring",
+			"name",
+			"cpu",
+			"conky_clock_rings",
+			"64",
+			"Centos",
+			"Cent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 363.0,
+	"status_bar_visible": true
+}
