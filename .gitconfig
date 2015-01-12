@@ -1,6 +1,8 @@
 [alias]
 	c = commit -am
-	up = pull
+	up = push origin
+	down = pull origin
+	gf = fetch
 	p = push
 	s = status -s
 	df = diff --color --color-words --abbrev
