@@ -12,6 +12,13 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Docker
+alias dockeri="docker images"
+alias dockercc="docker ps -a | awk '{print $1}' | xargs docker rm"
+
+# PHP code snifer
+alias cs="php-cs-fixer fix"
+
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
