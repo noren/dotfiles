@@ -30,6 +30,19 @@ alias v="vim"
 alias o="open"
 alias oo="open ."
 
+# Security
+alias openports="ss -t -a"
+alias activeports="ss -t -o"
+# nmap -A -sS [IP address or hostname
+alias scanports="sudo nmap -A -sS"
+# nmap -p [port] [hostname or address]
+alias portinfo="nmap -p"
+# nmap -A [hostname or address]
+alias traceroute="nmap -A"
+# nmap -p 21,22,80 192.168.0.0/24 
+
+
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -45,6 +58,10 @@ alias la="ls -la ${colorflag}"
 
 # List only directories
 alias lsd='ls -l ${colorflag} | grep "^d"'
+
+# Long date, show dirs
+# http://www.tecmint.com/linux-ls-command-tricks/
+alias ll='ls -pl --time-style=+%H:%M:%S:%D'
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
