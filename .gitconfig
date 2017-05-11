@@ -3,13 +3,13 @@
 	up = push origin
 	down = pull origin
 	new = checkout -b
-	gf = fetch
+	f = fetch
 	p = push
 	s = status -s
 	new = checkout -b
 	df = diff --color --color-words --abbrev
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-	add = add --all
+        add = add --all
 [color]
 	ui = always
 [core]

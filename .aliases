@@ -18,7 +18,7 @@ alias dockercc="docker ps -a | awk '{print $1}' | xargs docker rm"
 alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
 alias dockerstop="docker stop $(docker ps -a -q)"
 alias dockerrmc="docker rm $(docker ps -a -q)"
-
+alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
 
 # PHP code snifer
 alias cs="php-cs-fixer fix"
