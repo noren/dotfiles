@@ -19,6 +19,8 @@ alias dockerrmc="docker rm $(docker ps -a -q)"
 alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
 alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
 
+# SVN aliases
+alias ss="svn status -q"
 
 # PHP code snifer
 alias cs="php-cs-fixer fix"
