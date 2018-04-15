@@ -128,3 +128,9 @@ gifify() {
   fi
 }
 
+dtags() {
+  local image="${1}"
+  curl -s -S "https://registry.hub.docker.com/v2/repositories/library/${image}/tags/" \
+    | jq '."results"[]["name"]' \
+    | sort
+}
