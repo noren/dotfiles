@@ -13,30 +13,30 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Docker
-alias dockeri="docker images"
-alias dockercc="docker ps -a | awk '{print $1}' | xargs docker rm"
-alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
-alias dockerstop="docker stop $(docker ps -a -q)"
-alias dockerrmc="docker rm $(docker ps -a -q)"
-alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
-alias dockerrmc="docker rm $(docker ps -a -q)"
-alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
-alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
-alias dockerrun="docker exec -it"
+#alias dockeri="docker images"
+#alias dockercc="docker ps -a | awk '{print $1}' | xargs docker rm"
+#alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
+#alias dockerstop="docker stop $(docker ps -a -q)"
+#alias dockerrmc="docker rm $(docker ps -a -q)"
+#alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
+#alias dockerrmc="docker rm $(docker ps -a -q)"
+#alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
+#alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
+#alias dockerrun="docker exec -it"
 
 # SVN aliases
 alias ss="svn status -q"
 
 # PHP code snifer
-alias cs="php-cs-fixer fix"
+#alias cs="php-cs-fixer fix"
 
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+#alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
-alias j="jobs"
+#alias j="jobs"
 alias v="vim"
 alias o="open"
 alias oo="open ."
