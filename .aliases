@@ -19,6 +19,13 @@ alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
 alias dockerstop="docker stop $(docker ps -a -q)"
 alias dockerrmc="docker rm $(docker ps -a -q)"
 alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
+alias dockerrmc="docker rm $(docker ps -a -q)"
+alias dockerrmi="docker rmi $(docker images -q -f dangling=true)"
+alias dockerrmv="docker volume rm $(docker volume ls -f dangling=true -q)"
+alias dockerrun="docker exec -it"
+
+# SVN aliases
+alias ss="svn status -q"
 
 # PHP code snifer
 alias cs="php-cs-fixer fix"
@@ -82,7 +89,7 @@ alias week='date +%V'
 
 # IP addresses
 alias externalip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias internalip="/sbin/ifconfig enp0s9 | grep 'inet addr:' | cut -d: -f2 | cut -d ' ' -f1"
+alias internalip="/sbin/ifconfig enp2s0 | grep 'inet addr:' | cut -d: -f2 | cut -d ' ' -f1"
 
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
