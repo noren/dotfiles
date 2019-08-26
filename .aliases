@@ -89,7 +89,7 @@ alias week='date +%V'
 
 # IP addresses
 alias externalip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias internalip="/sbin/ifconfig enp2s0 | grep 'inet addr:' | cut -d: -f2 | cut -d ' ' -f1"
+alias internalip="/sbin/ifconfig enp2s0 | grep 'inet ' | cut -d ' ' -f10"
 
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
